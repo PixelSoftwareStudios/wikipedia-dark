@@ -1,0 +1,163 @@
+/* ==UserStyle==
+@name           Wikipedia Dark
+@namespace      stuffbydante.net
+@version        1.0.8
+@description    Wikipedia Dark Mode
+@author         Dante
+@license        MIT
+==/UserStyle== */
+@-moz-document domain("wikipedia.org") {
+	#mw-head {
+		background-color: #111 !important;
+		border-bottom: 1px solid black !important;
+	}
+
+	.mw-body, .parsoid-body {
+		background-color: #222 !important;
+		color: #f1f1f1 !important;
+	}
+
+	.mw-body {
+		border: 1px solid #111;
+	}
+	
+	body {
+		background-color: #222;
+	}
+
+	a:visited {
+
+	}
+
+	div.mw-warning-with-logexcerpt, div.mw-lag-warn-high, div.mw-cascadeprotectedwarning, div#mw-protect-cascadeon, div.titleblacklist-warning, div.locked-warning {
+		background-color: #333;
+	}
+
+	#mp-topbanner, #mp-left, #mp-right, #mp-lower, #mp-other, #mp-sister, #mp-lang {
+		background-color: #333 !important;
+		color: #f1f1f1 !important;
+	}
+	/* table.ambox-content {
+		border-left-width: 5px;
+	} */
+
+	.vectorTabs li.selected a, .vectorTabs li.selected a:visited {
+		color: #f1f1f1;
+		background-color: #222 !important;
+		background-image: none !important;
+	}
+	
+
+	.vectorTabs {
+		background-color: #111;
+		background-image: none !important;
+	}
+
+	.vectorTabs span {
+		background-color: #111;
+		background-image: none !important;
+	}
+
+	.vectorTabs li {
+		background-image: none !important;
+	}
+
+	.vectorTabs ul {
+		background-image: none !important;
+	}
+
+	ul {
+		list-style-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%111.5%22 fill=%22%23222%22/%3E %3C/svg%3E");
+	}
+
+	table.ambox {
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		background-color: #333;
+	}
+
+	.toc, .mw-warning, .toccolours {
+		border: 1px solid #444;
+		background-color: #333;
+	}
+
+	.tocnumber {
+		color: #f1f1f1;
+	}
+
+	div.thumbinner {
+		background-color: #333;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #f1f1f1;
+	}
+
+	#footer ul li {
+		color: #f1f1f1;
+	}
+
+	.catlinks {
+		background-color: #333;
+	}
+
+	.navbox, .navbox-subgroup {
+		background-color: #ddd;
+	}
+
+	.navbox-even {
+		background-color: #666;
+	}
+
+	.navbox-odd {
+		background-color: #444;
+	}
+
+	.navbox-abovebelow, .navbox-group, th.navbox-group, .navbox-subgroup .navbox-title {
+		background-color: #444;
+	}
+
+	.navbox th, .navbox-title {
+		background-color: #222;
+	}
+	tr + tr > .navbox-abovebelow, tr + tr > .navbox-group, tr + tr > .navbox-image, tr + tr > .navbox-list {
+		border-top: 2px solid #ddd;
+	}
+
+	.wikitable > tr > th, .wikitable > * > tr > th {
+		background-color: #bbb;
+	}
+
+	.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+		background-color: #ddd;
+	}
+
+	table.tmbox, table.ombox, table.fmbox-system, .unresolved span {
+		background-color: #333;
+	}
+
+	#portal td {
+		background-color: #222;
+	}
+
+	#contents-footer {
+		background-color: #333;
+	}
+
+	.infobox {
+		background-color: #333;
+		color: #f1f1f1;
+	}
+
+	.mw-collapsible, mw-made-collapsible, .mw-collapsible-toggle, .mw-collapsible-toggle-default, .mw-collapsible-toggle-collapsed {
+		background-color: #444;
+	}
+
+	.quotebox, .pullquote {
+		background-color: #333 !important;
+	}
+	/* #mw-panel .portal .body li a {
+
+	} */
+}
