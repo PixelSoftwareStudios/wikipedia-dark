@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia Dark
-@namespace      stuffbydante.net
-@version        1.0.8
+@namespace      https://github.com/PixelSoftwareStudios/wikipedia-dark/
+@version        1.1.0
 @description    Wikipedia Dark Mode
 @author         Dante
 @license        MIT
@@ -22,7 +22,7 @@
 	}
 	
 	body {
-		background-color: #222;
+		background-color: #222 !important;
 	}
 
 	a:visited {
@@ -98,12 +98,84 @@
 		color: #f1f1f1;
 	}
 
+	#simpleSearch input {
+		color: #f1f1f1;
+	}
+
+	/* .oo-ui-tagMultiselectWidget-handle > .oo-ui-tagMultiselectWidget-content > input {
+		color: #f1f1f1;
+		background-color: #333;
+	} */
+
+	.oo-ui-textInputWidget .oo-ui-inputWidget-input {
+		background-color: #f1f1f1;
+	}
+	.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+		background-color: #f1f1f1;
+	}
+
+	.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle {
+		background-color: #ddd;
+	}
+
+	.oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open .oo-ui-dropdownWidget-handle {
+		background-color: #ddd;
+	}
+
+	.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected {
+		background-color: #bbb;
+	}
+
+	.oo-ui-menuSelectWidget {
+		background-color: #333;
+	}
+
+	.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+		background-color: #555;
+	}
+
+	.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) {
+		background-color: #ddd;
+	}
+
+	.mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label {
+		background-color: #333;
+		color: #f1f1f1;
+	}
+	.mw-advancedSearch-fieldContainer {
+		background-color: #333;
+	}
 	.catlinks {
 		background-color: #333;
 	}
 
+	.mw-datatable th {
+		background-color: #333;
+	}
+
+	.mw-datatable td {
+		background-color: #222;
+	}
+
+	.mw-datatable tr:hover td {
+		background-color: #444;
+	}
+
+	/* .mw-parser-output div {
+		color: #f1f1f1;
+		background-color: #222;
+	} */
+
+	code {
+		background-color: #ddd;
+	}
+
 	.navbox, .navbox-subgroup {
 		background-color: #ddd;
+	}
+
+	.vertical-navbox {
+		background-color: #333;
 	}
 
 	.navbox-even {
@@ -133,7 +205,7 @@
 		background-color: #ddd;
 	}
 
-	table.tmbox, table.ombox, table.fmbox-system, .unresolved span {
+	table.tmbox, table.ombox, table.fmbox-system {
 		background-color: #333;
 	}
 
@@ -154,10 +226,77 @@
 		background-color: #444;
 	}
 
+	.mw-ui-input {
+		background-color: #f1f1f1;
+	}
+
 	.quotebox, .pullquote {
 		background-color: #333 !important;
 	}
-	/* #mw-panel .portal .body li a {
 
+	.app-badges {
+		background-color: #222;
+	}
+
+	.pure-form input[type="search"] {
+		background-color: #ddd;
+	}
+
+	.lang-list-button {
+		background-color: #ddd;
+		outline: 1.6rem solid #bbb;
+	}
+
+	/* .lang-list-active {
+		background-color: #ddd;
+		outline: 1px solid #bbb;
 	} */
+
+	.lang-list-container {
+		background-color: #333;
+	}
+
+	.bookshelf .text {
+		background-color: #444;
+	}
+
+	.mwe-popups-overlay {
+		background-color: rgb(51, 51, 51, 0.9);
+	}
+
+	.mw-parser-output .module-shortcutboxplain {
+		background-color: #f1f1f1;
+	}
+
+	#mwe-popups-settings {
+		background-color: #222;
+	}
+
+	#mwe-popups-settings main form label > span {
+		color: #f1f1f1;
+	}
+
+	.mwe-popups .mwe-popups-extract {
+		color: #f1f1f1;
+	}
+
+	.mwe-popups {
+		background-color: #333;
+	}
+
+	.mwe-popups .mwe-popups-extract[dir="ltr"]::after {
+		background-image: linear-gradient(to right, rgba(51, 51, 51, 0), #333 50%);
+	}
+
+	#centralized-discussion-label {
+		background-color: #222;
+	}
+
+	div.unresolved span {
+		background-color: #333;
+	}
+
+	.plainlinks .nourlexpansion .hlist {
+		background-color: #bbb;
+	}
 }
