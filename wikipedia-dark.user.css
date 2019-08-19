@@ -4,7 +4,7 @@
 @version        1.1.1
 @description    Wikipedia Dark Mode
 @author         Dante
-@license        MIT
+@license        CC BY-SA 4.0
 ==/UserStyle== */
 @-moz-document domain("wikipedia.org") {
 	#mw-head {
@@ -243,7 +243,7 @@
 	}
 
 	.navbox-odd {
-		background-color: #444;
+		background-color: #333;
 	}
 
 	.navbox-abovebelow, .navbox-group, th.navbox-group, .navbox-subgroup .navbox-title {
@@ -452,6 +452,94 @@
 	}
 	.languagesettings-menu .menu-section .settings-text {
 		color: #f1f1f1;
+	}
+
+	.mw-mmv-post-image {
+		color: #f1f1f1;
+	}
+
+	.layouttemplate.restrictiontemplate.mw-content-ltr {
+		background-color: #777 !important;
+	}
+
+	#filetoc {
+		background-color: #777;
+	}
+
+	.layouttemplate.mw-content-ltr {
+		background-color: #888 !important;
+	}
+
+	.licensetpl_wrapper {
+		background-color: #444 !important;
+	}
+
+	.plainlinks.mw-content-ltr {
+		background-color: #333 !important;
+	}
+
+	table.plainlinks.mw-content-ltr tbody tr[style="padding:8px 0px 0; background:#FFE2E0"] {
+		background-color: #222 !important;
+	}
+
+	.fileinfo-paramfield {
+		background-color: #222;
+	}
+
+	.mw_metadata th {
+		background-color: #888;
+	}
+
+	.mw_metadata td {
+		background-color: #ccc;
+	}
+
+	#mp-middle {
+		background-color: #333 !important;
+	}
+
+	pre, .mw-code {
+		background-color: #ccc;
+	}
+
+	#pagehistory li.selected {
+		background-color: #bbb;
+	}
+
+	table.vertical-navbox.nowraplinks.hlist tbody tr td {
+		background-color: #333 !important;
+	}
+
+	.mw-mmv-permission-box.full-size .mw-mmv-permission-html {
+		background-color: #333 !important;
+	}
+
+	.mw-mmv-info-box {
+		background-color: #222 !important;
+	}
+
+	.mw-mmv-permission-box .mw-mmv-permission-text .mw-mmv-permission-text-fader {
+		background-image: linear-gradient(to bottom,rgba(51, 51, 51,0) 0%,#333 100%) !important;
+	}
+
+	.mw-mmv-permission-box .mw-mmv-permission-text .mw-mmv-permission-text-fader a {
+		background-color: #222;
+	}
+
+	.above {
+		color: #f1f1f1;
+	}
+
+	table.infobox tbody tr th {
+		color: #f1f1f1;
+	}
+
+	#talkheader tbody tr td[style="background-color: white; border: 1px solid #c0c090"] {
+		background-color: #333 !important;
+	}
+
+	#mw-panel .portal .body ul li a:visited {
+		color: blue !important;
 	}
 
 }
