@@ -239,7 +239,7 @@
 	}
 
 	.navbox-even {
-		background-color: #666;
+		background-color: #444;
 	}
 
 	.navbox-odd {
@@ -266,20 +266,24 @@
 	}
 
 	table.tmbox, table.ombox, table.fmbox-system {
-		background-color: #333;
+		background-color: #333 !important;
 	}
 
 	#portal td {
-		background-color: #222;
+		background-color: #222 !important;
 	}
 
 	#contents-footer {
-		background-color: #333;
+		background-color: #333 !important;
 	}
 
 	.infobox {
 		background-color: #333;
 		color: #f1f1f1;
+	}
+
+	.infobox.standard-talk {
+		background-color: #333;
 	}
 
 	.mw-collapsible, mw-made-collapsible, .mw-collapsible-toggle, .mw-collapsible-toggle-default, .mw-collapsible-toggle-collapsed {
@@ -542,4 +546,51 @@
 		color: blue !important;
 	}
 
+	.collection-warning-box {
+		background-color: #333;
+	}
+
+	.nowraplinks.navbox-subgroup {
+		background-color: #333 !important;
+	}
+
+	#wpTextbox1 {
+		background-color: #ccc;
+	}
+
+	.template-documentation {
+		background-color: #222;
+	}
+
+	.ace_content {
+		background-color: #ddd;
+	}
+	.mw-scribunto-console-fieldset {
+		color: #f1f1f1;
+		background-color: #222;
+	}
+
+	.mw-scribunto-message {
+		background-color: #222;
+	}
+
+	#mw-scribunto-input {
+		background-color: #ccc;
+	}
+
+	.editOptions {
+		background-color: #aaa;
+	}
+
+	.todo-box {
+		background-color: #222 !important;
+	}
+
+	.tracklist {
+		color: black;
+	}
+
+	.boilerplate {
+		background-color: #444 !important;
+	}
 }
