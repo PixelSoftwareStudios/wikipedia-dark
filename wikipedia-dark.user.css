@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia Dark
 @namespace      https://github.com/PixelSoftwareStudios/wikipedia-dark/
-@version        1.1.1
+@version        2.0.0
 @description    Wikipedia Dark Mode
 @author         Dante
 @license        CC BY-SA 4.0
@@ -16,14 +16,267 @@
 		background-color: #222 !important;
 		color: #f1f1f1 !important;
 	}
+    
+    .mw-logo-wordmark, .mw-logo-tagline, .mw-ui-icon:before {
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    
+    body, .mediawiki, .mw-footer, .vector-header-container, .mw-header, .mw-page-container {
+        background-color: #222 !important;
+    }
+    
+    .vector-menu-tabs .mw-list-item.selected a, .vector-menu-tabs .mw-list-item.selected a:visited {
+        color: #f1f1f1 !important;
+    }
+    
+    .mw-headline {
+        color: #f1f1f1 !important
+    }
+    
+    .mp-h2 {
+        background: #333 !important;
+    }
+    
+    .mw-parser-output .ambox {
+        background: #333 !important;
+    }
 
-	.mw-body {
-		border: 1px solid #111;
+    .vector-dropdown-content {
+        padding: 1px !important;
+    }
+    
+    .mw-collapsible tr:first-of-type > th  {
+        background: #333 !important;
+        color: #f1f1f1;
+    }
+
+/* Hamburger menu */    
+    .vector-pinned-container *, .vector-unpinned-container * {
+        background: #333 !important;
+    }
+    
+/* End hamburger menu */
+
+/* Hotdog menu */
+    #vector-user-links-dropdown .vector-dropdown-content {
+        background: #333 !important;
+    }
+    
+    #p-user-menu-anon-editor .vector-menu-heading {
+        color: #f1f1f1 !important;
+    }
+    
+/* End hotdog menu */
+    
+/*  Sidebar    */
+    
+    .vector-toc {
+        background: #333 !important;
+    }
+    
+    .vector-toc:after {
+        background: #333 !important;
+    }
+    
+    .vector-pinnable-header-label, .vector-toc-list-item-active * {
+        color: #ddd !important;
+    }
+    
+/* End sidebar */
+    
+/* Search menu */
+    .cdx-menu {
+        background: #333;
+    }
+    
+    .cdx-menu-item * {
+        color: #f1f1f1 !important;
+    }
+    
+    .cdx-menu-item--highlighted {
+        background: #222 !important;
+    }
+/* End search menu */
+
+    .vector-popup-notification * {
+        background: #333 !important;
+        color: #f1f1f1 !important;
+    }
+    
+    .vector-pinnable-element {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .vector-menu-heading {
+        color: #f1f1f1 !important;
+    }
+    
+    .vector-page-tools::after {
+        background: none !important;
+    }
+    
+    #simpleSearch .vector-search-box-input {
+		background: #f1f1f1 !important;
 	}
-	
-	body {
-		background-color: #222 !important;
+
+    .mwe-popups .mwe-popups-container, .mwe-popups-extract:after {
+        background: #222 !important;
+    }
+    
+    .vector-dropdown-content {
+        background: #f1f1f1 !important;
+    }
+    
+    .contentsPage *, .mw-parser-output .contentsPage__title {
+        background: #222 !important;
+    }
+    
+    .mw-collapsed {
+        background: #222 !important;
+    }
+    
+    .navbox, .navbox-subgroup {
+        background: #ddd !important;
+    }
+    
+    .current-events *, .current-events-sidebar * {
+        background: #222 !important;
+    }
+    
+    .p-current-events * {
+        background: #222 !important;
+    }
+    
+    .current-events-calendar {
+        background: #222 !important;
+        color: #f1f1f1 !important;
+    }
+    
+    .current-events-calendar caption {
+        border: 1px solid #cedff2;
+        background: #222 !important;
+    }
+    
+    .events-by-month {
+        background: #333 !important;
+    }
+    
+    .mw-selflink {
+        color: #f1f1f1 !important;
+    }
+    
+    .mw-collapsible {
+        padding: 2px !important;
+    }
+    
+    .mw-collapsible-content {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
+    
+    .side-box {
+        background: #222 !important;
+    }
+    
+    
+    #talkheader {
+        background: #333 !important;
+    }
+    
+    .sidebar {
+        background: #333 !important;
+    }
+    
+    .centralized-discussion-vps, .centralized-discussion-navbar {
+        background: #222 !important;
+        padding: 2px;
+    }
+    
+    .centralized-discussion-ongoing {
+        padding: 2px;
+    }
+    
+    .hidden-content {
+        background: #222 !important;
+    }
+    
+    .mp-toolbox, .mp-toolbox-daily * {
+        background: #333 !important;
+    }
+    
+    .portalbox {
+        background: #f1f1f1 !important;
+    }
+    
+    #mwe-popups-settings main#mwe-popups-settings-form form label > span {
+        color: #f1f1f1 !important;
+    }
+    
+    .vector-body-before-content {
+        margin-top: 4px;
+    }
+    
+    .uls-empty-state h3, p {
+        color: #f1f1f1 !important;
+    }
+    
+    
+    .mw-parser-output .portal-bar {
+        background: #222 !important;
+    }
+    
+    .navbox {
+        background: #222 !important;
+    }
+    
+   .mw-parser-output tr+tr>.navbox-abovebelow, .mw-parser-output tr+tr>.navbox-group, .mw-parser-output tr+tr>.navbox-image, .mw-parser-output tr+tr>.navbox-list {
+        border-top: 2px solid #111;
+    }
+    
+    .mw-parser-output .navbox-list {
+        border-color: #111;
+    }
+    
+    #teahouseheader * {
+        background-color: #222 !important;
+    }
+    
+    #teahouseheader span, p {
+        color: #f1f1f1 !important;
+    }
+    
+    #Q_header > p {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    .mw-ui-button {
+        color: #f1f1f1;
+    }
+    
+    .wikitable caption {
+        color: #f1f1f1;
+    }
+    
+    .infobox-above, .infobox-header {
+        color: #f1f1f1 !important;
+    }
+    
+    .introtosingle__base {
+        background: #333 !important;
+    }
+    
+    .mw-ui-button {
+		background-color: #333;
 	}
+    
+    .mw-number-text * {
+        color: #f1f1f1 !important;
+    }
+
+	/* TODO: v1 old/unknown below, remove deprecated rules */
 
 	a:visited {
 		color: #0000EE
@@ -34,8 +287,8 @@
 		background-color: #333;
 	}
 
-	#mp-topbanner, #mp-left, #mp-right, #mp-lower, #mp-other, #mp-sister, #mp-lang {
-		background-color: #333 !important;
+	#mp-topbanner, #mp-left, #mp-right, #mp-middle, #mp-lower, #mp-other, #mp-sister, #mp-lang {
+		background-color: #222 !important;
 		color: #f1f1f1 !important;
 	}
 	/* table.ambox-content {
@@ -96,10 +349,6 @@
 	}
 
 	#footer ul li {
-		color: #f1f1f1;
-	}
-
-	#simpleSearch input {
 		color: #f1f1f1;
 	}
 
@@ -230,16 +479,12 @@
 		background-color: #ddd;
 	}
 
-	.navbox, .navbox-subgroup {
-		background-color: #ddd !important;
-	}
-
 	.vertical-navbox {
 		background-color: #333 !important;
 	}
 
 	.navbox-even {
-		background-color: #444;
+		background-color: #444 !important;
 	}
 
 	.navbox-odd {
@@ -251,7 +496,7 @@
 	}
 
 	.navbox th, .navbox-title {
-		background-color: #222 !important;
+		background-color: #333 !important;
 	}
 	tr + tr > .navbox-abovebelow, tr + tr > .navbox-group, tr + tr > .navbox-image, tr + tr > .navbox-list {
 		border-top: 2px solid #ddd;
@@ -286,9 +531,9 @@
 		background-color: #333;
 	}
 
-	.mw-collapsible, mw-made-collapsible, .mw-collapsible-toggle, .mw-collapsible-toggle-default, .mw-collapsible-toggle-collapsed {
+/* 	.mw-collapsible, mw-made-collapsible, .mw-collapsible-toggle, .mw-collapsible-toggle-default, .mw-collapsible-toggle-collapsed {
 		background-color: #444;
-	}
+	} */
 
 	.mw-ui-input {
 		background-color: #f1f1f1;
@@ -405,10 +650,6 @@
 		color: #f1f1f1;
 	}
 
-	.mw-ui-button {
-		background-color: #ddd;
-	}
-
 	.uls-input-settings .uls-input-settings-inputmethods-list {
 		background-color: #333;
 	}
@@ -496,10 +737,6 @@
 
 	.mw_metadata td {
 		background-color: #ccc;
-	}
-
-	#mp-middle {
-		background-color: #333 !important;
 	}
 
 	pre, .mw-code {
