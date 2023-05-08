@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia Dark
 @namespace      https://github.com/PixelSoftwareStudios/wikipedia-dark/
-@version        2.0.0
+@version        2.0.1
 @description    Wikipedia Dark Mode
 @author         Dante
 @license        CC BY-SA 4.0
@@ -17,10 +17,14 @@
 		color: #f1f1f1 !important;
 	}
     
-    .mw-logo-wordmark, .mw-logo-tagline, .mw-ui-icon:before {
+    .mw-logo-wordmark, .mw-logo-tagline, .svg-Wikipedia_wordmark, .mw-ui-icon:before {
         -webkit-filter: invert(100%); /* Safari/Chrome */
         filter: invert(100%);
     }
+/* Breaks some transparent images but otherwise makes them better */
+	img {
+		background: #f1f1f1;
+	}
     
     body, .mediawiki, .mw-footer, .vector-header-container, .mw-header, .mw-page-container {
         background-color: #222 !important;
@@ -50,6 +54,18 @@
         background: #333 !important;
         color: #f1f1f1;
     }
+
+	.mwe-math-element {
+		filter: invert(100%);
+	}
+	
+	.app-badges .footer-sidebar-content {
+		background: #333 !important;
+	}
+	
+	.footer-sidebar-text {
+		color: #f1f1f1 !important;
+	}
 
 /* Hamburger menu */    
     .vector-pinned-container *, .vector-unpinned-container * {
@@ -276,7 +292,13 @@
         color: #f1f1f1 !important;
     }
 
-	/* TODO: v1 old/unknown below, remove deprecated rules */
+/*     .vector-search-box-input {
+        
+    } */
+/*     
+    .mw-page-container {
+        border: 1px solid #f1f1f1;
+    } */
 
 	a:visited {
 		color: #0000EE
